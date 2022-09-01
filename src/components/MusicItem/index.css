@@ -1,0 +1,41 @@
+.music-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.music-img {
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+}
+.name-genre {
+  display: '';
+  margin: 10px;
+}
+.genre {
+  color: #3b82f6;
+  margin-top: -10px;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.image-name-container {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  color: #ffffff;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  padding-top: 5px;
+  border-width: 0px;
+}
